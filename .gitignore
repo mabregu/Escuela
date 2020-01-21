@@ -1,0 +1,8 @@
+.vscode
+Nuevo.csproj
+Properties
+appsettings.Development.json
+appsettings.json
+bin
+obj
+wwwroot

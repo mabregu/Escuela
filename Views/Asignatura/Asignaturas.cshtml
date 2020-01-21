@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Asignatura>
+
+@{
+    ViewData["Title"] = "Información de Asignaturas";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewData["Title"]</h1>
+    @foreach(var asignatura in Model)
+    {
+        <partial name="ObjetoEscuelaBase" model="asignatura" />
+    }
+    
+    <p><i>@ViewBag.Fecha</i></p>
+</div>
